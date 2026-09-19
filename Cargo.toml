@@ -1,0 +1,10 @@
+[package]
+name = "rsa-step-tracer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Open Source Contributors"]
+
+[dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"
+clap = { version = "4.4", features = ["derive"] }
